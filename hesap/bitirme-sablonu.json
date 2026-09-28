@@ -1,0 +1,1187 @@
+{
+ "kitap": "bitirme-sablonu.xlsx",
+ "sayfalar": {
+  "Başla": {
+   "A1": {
+    "f": null,
+    "v": "Bitirme Projesi · Kişisel Finansal Plan (4.4)"
+   },
+   "A2": {
+    "f": null,
+    "v": "ŞABLON · kendi (ya da açıkça 'uydurma' diye işaretli) verinizle doldurun · gerçek kimlik, IBAN, kart numarası YAZMAYIN"
+   },
+   "A3": {
+    "f": null,
+    "v": "Sarı hücre = girdi (değiştirebilirsiniz) · beyaz hücre = formül (elle yazmayın)"
+   },
+   "A5": {
+    "f": null,
+    "v": "Sırayla doldurun: Bütçe → Nakit Akışı → Hedefler → Varsayımlar. Sonra aşağıdaki listeyi işaretleyin."
+   },
+   "A7": {
+    "f": null,
+    "v": "Ölçüt"
+   },
+   "B7": {
+    "f": null,
+    "v": "Ne istenir?"
+   },
+   "C7": {
+    "f": null,
+    "v": "Tamam mı?"
+   },
+   "A8": {
+    "f": null,
+    "v": "Ç1"
+   },
+   "B8": {
+    "f": null,
+    "v": "Dosya açılıyor, hiçbir hücrede #DIV/0!, #REF!, #VALUE! yok; girdi ve formül hücreleri ayrı"
+   },
+   "C8": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A9": {
+    "f": null,
+    "v": "Ç2"
+   },
+   "B9": {
+    "f": null,
+    "v": "Bütçe: kategori, plan, gerçekleşen, fark; toplamlar formülle"
+   },
+   "C9": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A10": {
+    "f": null,
+    "v": "Ç3"
+   },
+   "B10": {
+    "f": null,
+    "v": "12 aylık nakit akışı: açılış → giriş → çıkış → kapanış, aylar birbirine bağlı, açık aylar işaretli"
+   },
+   "C10": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A11": {
+    "f": null,
+    "v": "Ç4"
+   },
+   "B11": {
+    "f": null,
+    "v": "Borç ya da birikim: ödeme planı veya aylık katkı DEVRESEL_ÖDEME (PMT) ile; toplam faiz yazılı"
+   },
+   "C11": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A12": {
+    "f": null,
+    "v": "Ç5"
+   },
+   "B12": {
+    "f": null,
+    "v": "Enflasyon: hedef tutar enflasyon varsayımıyla güncellendi; varsayım etiketli"
+   },
+   "C12": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A13": {
+    "f": null,
+    "v": "Ç6"
+   },
+   "B13": {
+    "f": null,
+    "v": "Karar: en az 3 hedef, öncelik sırası, 'plan yetiyor mu?' sonucu ve bir değişiklik denemesi"
+   },
+   "C13": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A14": {
+    "f": null,
+    "v": "Ç7"
+   },
+   "B14": {
+    "f": null,
+    "v": "Tek sayfa rapor: durum, 3 karar, varsayımlar listesi (her oran: kaynak + tarih ya da 'ÖRNEK')"
+   },
+   "C14": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A15": {
+    "f": null,
+    "v": "Ç8"
+   },
+   "B15": {
+    "f": null,
+    "v": "KIRMIZI ÇİZGİ: gerçek kimlik/IBAN/kart no yok · ürün/hisse/fon önerisi ve getiri vaadi yok · kaynaksız 'bugünkü oran' yok"
+   },
+   "C15": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "B17": {
+    "f": null,
+    "v": "Tamamlanan ölçüt sayısı (8 olmalı)"
+   },
+   "C17": {
+    "f": "=COUNTIF(C8:C15,\"Evet\")",
+    "v": 0
+   },
+   "B18": {
+    "f": null,
+    "v": "Sonuç"
+   },
+   "C18": {
+    "f": "=IF(C17=8,\"TESLİME HAZIR\",\"EKSİK VAR\")",
+    "v": "EKSİK VAR"
+   }
+  },
+  "Bütçe": {
+   "A1": {
+    "f": null,
+    "v": "Aylık Bütçe"
+   },
+   "A2": {
+    "f": null,
+    "v": "ŞABLON · kendi (ya da açıkça 'uydurma' diye işaretli) verinizle doldurun · gerçek kimlik, IBAN, kart numarası YAZMAYIN"
+   },
+   "A3": {
+    "f": null,
+    "v": "Sarı hücre = girdi (değiştirebilirsiniz) · beyaz hücre = formül (elle yazmayın)"
+   },
+   "A5": {
+    "f": null,
+    "v": "Kategori"
+   },
+   "B5": {
+    "f": null,
+    "v": "Zorunlu mu?"
+   },
+   "C5": {
+    "f": null,
+    "v": "Plan"
+   },
+   "D5": {
+    "f": null,
+    "v": "Gerçekleşen"
+   },
+   "E5": {
+    "f": null,
+    "v": "Fark (plan − gerçek)"
+   },
+   "F5": {
+    "f": null,
+    "v": "Durum"
+   },
+   "C6": {
+    "f": null,
+    "v": 0
+   },
+   "D6": {
+    "f": null,
+    "v": 0
+   },
+   "E6": {
+    "f": "=C6-D6",
+    "v": 0.0
+   },
+   "F6": {
+    "f": "=IF(E6<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C7": {
+    "f": null,
+    "v": 0
+   },
+   "D7": {
+    "f": null,
+    "v": 0
+   },
+   "E7": {
+    "f": "=C7-D7",
+    "v": 0.0
+   },
+   "F7": {
+    "f": "=IF(E7<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C8": {
+    "f": null,
+    "v": 0
+   },
+   "D8": {
+    "f": null,
+    "v": 0
+   },
+   "E8": {
+    "f": "=C8-D8",
+    "v": 0.0
+   },
+   "F8": {
+    "f": "=IF(E8<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C9": {
+    "f": null,
+    "v": 0
+   },
+   "D9": {
+    "f": null,
+    "v": 0
+   },
+   "E9": {
+    "f": "=C9-D9",
+    "v": 0.0
+   },
+   "F9": {
+    "f": "=IF(E9<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C10": {
+    "f": null,
+    "v": 0
+   },
+   "D10": {
+    "f": null,
+    "v": 0
+   },
+   "E10": {
+    "f": "=C10-D10",
+    "v": 0.0
+   },
+   "F10": {
+    "f": "=IF(E10<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C11": {
+    "f": null,
+    "v": 0
+   },
+   "D11": {
+    "f": null,
+    "v": 0
+   },
+   "E11": {
+    "f": "=C11-D11",
+    "v": 0.0
+   },
+   "F11": {
+    "f": "=IF(E11<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C12": {
+    "f": null,
+    "v": 0
+   },
+   "D12": {
+    "f": null,
+    "v": 0
+   },
+   "E12": {
+    "f": "=C12-D12",
+    "v": 0.0
+   },
+   "F12": {
+    "f": "=IF(E12<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C13": {
+    "f": null,
+    "v": 0
+   },
+   "D13": {
+    "f": null,
+    "v": 0
+   },
+   "E13": {
+    "f": "=C13-D13",
+    "v": 0.0
+   },
+   "F13": {
+    "f": "=IF(E13<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C14": {
+    "f": null,
+    "v": 0
+   },
+   "D14": {
+    "f": null,
+    "v": 0
+   },
+   "E14": {
+    "f": "=C14-D14",
+    "v": 0.0
+   },
+   "F14": {
+    "f": "=IF(E14<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "C15": {
+    "f": null,
+    "v": 0
+   },
+   "D15": {
+    "f": null,
+    "v": 0
+   },
+   "E15": {
+    "f": "=C15-D15",
+    "v": 0.0
+   },
+   "F15": {
+    "f": "=IF(E15<0,\"AŞILDI\",\"\")",
+    "v": ""
+   },
+   "A16": {
+    "f": null,
+    "v": "Toplam gider"
+   },
+   "C16": {
+    "f": "=SUM(C6:C15)",
+    "v": 0.0
+   },
+   "D16": {
+    "f": "=SUM(D6:D15)",
+    "v": 0.0
+   },
+   "E16": {
+    "f": "=C16-D16",
+    "v": 0.0
+   },
+   "A18": {
+    "f": null,
+    "v": "Aylık gelir"
+   },
+   "C18": {
+    "f": null,
+    "v": 0
+   },
+   "A19": {
+    "f": null,
+    "v": "Birikime ayrılan"
+   },
+   "C19": {
+    "f": null,
+    "v": 0
+   },
+   "A20": {
+    "f": null,
+    "v": "Kalan (gelir − gerçekleşen gider − birikim)"
+   },
+   "C20": {
+    "f": "=C18-D16-C19",
+    "v": 0.0
+   },
+   "A21": {
+    "f": null,
+    "v": "Zorunlu giderler (gerçekleşen)"
+   },
+   "C21": {
+    "f": "=SUMIF(B6:B15,\"Evet\",D6:D15)",
+    "v": 0.0
+   },
+   "A23": {
+    "f": null,
+    "v": "Acil durum fonu"
+   },
+   "A24": {
+    "f": null,
+    "v": "Hedef: kaç aylık zorunlu gider?"
+   },
+   "C24": {
+    "f": null,
+    "v": 0
+   },
+   "A25": {
+    "f": null,
+    "v": "Acil fon hedefi"
+   },
+   "C25": {
+    "f": "=C21*C24",
+    "v": 0.0
+   },
+   "A26": {
+    "f": null,
+    "v": "Şu an ayrılmış tutar"
+   },
+   "C26": {
+    "f": null,
+    "v": 0
+   },
+   "A27": {
+    "f": null,
+    "v": "Her ay ayırabileceğim"
+   },
+   "C27": {
+    "f": null,
+    "v": 0
+   },
+   "A28": {
+    "f": null,
+    "v": "Hedefe kaç ayda ulaşırım?"
+   },
+   "C28": {
+    "f": "=IF(C25-C26<=0,0,IFERROR(ROUNDUP((C25-C26)/C27,0),0))",
+    "v": 0
+   }
+  },
+  "Nakit Akışı": {
+   "A1": {
+    "f": null,
+    "v": "12 Aylık Nakit Akışı"
+   },
+   "A2": {
+    "f": null,
+    "v": "ŞABLON · kendi (ya da açıkça 'uydurma' diye işaretli) verinizle doldurun · gerçek kimlik, IBAN, kart numarası YAZMAYIN"
+   },
+   "A3": {
+    "f": null,
+    "v": "Sarı hücre = girdi (değiştirebilirsiniz) · beyaz hücre = formül (elle yazmayın)"
+   },
+   "A5": {
+    "f": null,
+    "v": "Kalem"
+   },
+   "B5": {
+    "f": null,
+    "v": "Ocak"
+   },
+   "C5": {
+    "f": null,
+    "v": "Şubat"
+   },
+   "D5": {
+    "f": null,
+    "v": "Mart"
+   },
+   "E5": {
+    "f": null,
+    "v": "Nisan"
+   },
+   "F5": {
+    "f": null,
+    "v": "Mayıs"
+   },
+   "G5": {
+    "f": null,
+    "v": "Haziran"
+   },
+   "H5": {
+    "f": null,
+    "v": "Temmuz"
+   },
+   "I5": {
+    "f": null,
+    "v": "Ağustos"
+   },
+   "J5": {
+    "f": null,
+    "v": "Eylül"
+   },
+   "K5": {
+    "f": null,
+    "v": "Ekim"
+   },
+   "L5": {
+    "f": null,
+    "v": "Kasım"
+   },
+   "M5": {
+    "f": null,
+    "v": "Aralık"
+   },
+   "N5": {
+    "f": null,
+    "v": "Yıl toplamı"
+   },
+   "A6": {
+    "f": null,
+    "v": "Açılış bakiyesi"
+   },
+   "B6": {
+    "f": null,
+    "v": 0
+   },
+   "C6": {
+    "f": "=B12",
+    "v": 0.0
+   },
+   "D6": {
+    "f": "=C12",
+    "v": 0.0
+   },
+   "E6": {
+    "f": "=D12",
+    "v": 0.0
+   },
+   "F6": {
+    "f": "=E12",
+    "v": 0.0
+   },
+   "G6": {
+    "f": "=F12",
+    "v": 0.0
+   },
+   "H6": {
+    "f": "=G12",
+    "v": 0.0
+   },
+   "I6": {
+    "f": "=H12",
+    "v": 0.0
+   },
+   "J6": {
+    "f": "=I12",
+    "v": 0.0
+   },
+   "K6": {
+    "f": "=J12",
+    "v": 0.0
+   },
+   "L6": {
+    "f": "=K12",
+    "v": 0.0
+   },
+   "M6": {
+    "f": "=L12",
+    "v": 0.0
+   },
+   "A7": {
+    "f": null,
+    "v": "Düzenli gelir"
+   },
+   "B7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "C7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "D7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "E7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "F7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "G7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "H7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "I7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "J7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "K7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "L7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "M7": {
+    "f": "='Bütçe'!$C$18",
+    "v": 0
+   },
+   "N7": {
+    "f": "=SUM(B7:M7)",
+    "v": 0.0
+   },
+   "A8": {
+    "f": null,
+    "v": "Düzensiz gelir"
+   },
+   "B8": {
+    "f": null,
+    "v": 0
+   },
+   "C8": {
+    "f": null,
+    "v": 0
+   },
+   "D8": {
+    "f": null,
+    "v": 0
+   },
+   "E8": {
+    "f": null,
+    "v": 0
+   },
+   "F8": {
+    "f": null,
+    "v": 0
+   },
+   "G8": {
+    "f": null,
+    "v": 0
+   },
+   "H8": {
+    "f": null,
+    "v": 0
+   },
+   "I8": {
+    "f": null,
+    "v": 0
+   },
+   "J8": {
+    "f": null,
+    "v": 0
+   },
+   "K8": {
+    "f": null,
+    "v": 0
+   },
+   "L8": {
+    "f": null,
+    "v": 0
+   },
+   "M8": {
+    "f": null,
+    "v": 0
+   },
+   "N8": {
+    "f": "=SUM(B8:M8)",
+    "v": 0.0
+   },
+   "A9": {
+    "f": null,
+    "v": "Düzenli gider"
+   },
+   "B9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "C9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "D9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "E9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "F9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "G9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "H9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "I9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "J9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "K9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "L9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "M9": {
+    "f": "='Bütçe'!$D$16",
+    "v": 0.0
+   },
+   "N9": {
+    "f": "=SUM(B9:M9)",
+    "v": 0.0
+   },
+   "A10": {
+    "f": null,
+    "v": "Dönemsel gider"
+   },
+   "B10": {
+    "f": null,
+    "v": 0
+   },
+   "C10": {
+    "f": null,
+    "v": 0
+   },
+   "D10": {
+    "f": null,
+    "v": 0
+   },
+   "E10": {
+    "f": null,
+    "v": 0
+   },
+   "F10": {
+    "f": null,
+    "v": 0
+   },
+   "G10": {
+    "f": null,
+    "v": 0
+   },
+   "H10": {
+    "f": null,
+    "v": 0
+   },
+   "I10": {
+    "f": null,
+    "v": 0
+   },
+   "J10": {
+    "f": null,
+    "v": 0
+   },
+   "K10": {
+    "f": null,
+    "v": 0
+   },
+   "L10": {
+    "f": null,
+    "v": 0
+   },
+   "M10": {
+    "f": null,
+    "v": 0
+   },
+   "N10": {
+    "f": "=SUM(B10:M10)",
+    "v": 0.0
+   },
+   "A11": {
+    "f": null,
+    "v": "Birikime ayrılan"
+   },
+   "B11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "C11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "D11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "E11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "F11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "G11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "H11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "I11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "J11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "K11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "L11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "M11": {
+    "f": "='Bütçe'!$C$19",
+    "v": 0
+   },
+   "N11": {
+    "f": "=SUM(B11:M11)",
+    "v": 0.0
+   },
+   "A12": {
+    "f": null,
+    "v": "Kapanış bakiyesi"
+   },
+   "B12": {
+    "f": "=B6+B7+B8-B9-B10-B11",
+    "v": 0.0
+   },
+   "C12": {
+    "f": "=C6+C7+C8-C9-C10-C11",
+    "v": 0.0
+   },
+   "D12": {
+    "f": "=D6+D7+D8-D9-D10-D11",
+    "v": 0.0
+   },
+   "E12": {
+    "f": "=E6+E7+E8-E9-E10-E11",
+    "v": 0.0
+   },
+   "F12": {
+    "f": "=F6+F7+F8-F9-F10-F11",
+    "v": 0.0
+   },
+   "G12": {
+    "f": "=G6+G7+G8-G9-G10-G11",
+    "v": 0.0
+   },
+   "H12": {
+    "f": "=H6+H7+H8-H9-H10-H11",
+    "v": 0.0
+   },
+   "I12": {
+    "f": "=I6+I7+I8-I9-I10-I11",
+    "v": 0.0
+   },
+   "J12": {
+    "f": "=J6+J7+J8-J9-J10-J11",
+    "v": 0.0
+   },
+   "K12": {
+    "f": "=K6+K7+K8-K9-K10-K11",
+    "v": 0.0
+   },
+   "L12": {
+    "f": "=L6+L7+L8-L9-L10-L11",
+    "v": 0.0
+   },
+   "M12": {
+    "f": "=M6+M7+M8-M9-M10-M11",
+    "v": 0.0
+   },
+   "A13": {
+    "f": null,
+    "v": "Durum"
+   },
+   "B13": {
+    "f": "=IF(B12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "C13": {
+    "f": "=IF(C12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "D13": {
+    "f": "=IF(D12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "E13": {
+    "f": "=IF(E12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "F13": {
+    "f": "=IF(F12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "G13": {
+    "f": "=IF(G12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "H13": {
+    "f": "=IF(H12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "I13": {
+    "f": "=IF(I12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "J13": {
+    "f": "=IF(J12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "K13": {
+    "f": "=IF(K12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "L13": {
+    "f": "=IF(L12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "M13": {
+    "f": "=IF(M12<0,\"AÇIK\",\"\")",
+    "v": ""
+   },
+   "A15": {
+    "f": null,
+    "v": "En düşük kapanış"
+   },
+   "B15": {
+    "f": "=MIN(B12:M12)",
+    "v": 0.0
+   },
+   "A16": {
+    "f": null,
+    "v": "Açık veren ay sayısı"
+   },
+   "B16": {
+    "f": "=COUNTIF(B12:M12,\"<0\")",
+    "v": 0
+   }
+  },
+  "Hedefler": {
+   "A1": {
+    "f": null,
+    "v": "Finansal Hedefler"
+   },
+   "A2": {
+    "f": null,
+    "v": "ŞABLON · kendi (ya da açıkça 'uydurma' diye işaretli) verinizle doldurun · gerçek kimlik, IBAN, kart numarası YAZMAYIN"
+   },
+   "A3": {
+    "f": null,
+    "v": "Sarı hücre = girdi (değiştirebilirsiniz) · beyaz hücre = formül (elle yazmayın)"
+   },
+   "A5": {
+    "f": null,
+    "v": "Yıllık enflasyon (ÖRNEK)"
+   },
+   "C5": {
+    "f": null,
+    "v": 0
+   },
+   "A6": {
+    "f": null,
+    "v": "Birikimin aylık getirisi (ÖRNEK)"
+   },
+   "C6": {
+    "f": null,
+    "v": 0
+   },
+   "A7": {
+    "f": null,
+    "v": "Her ay hedeflere ayırabileceğim"
+   },
+   "C7": {
+    "f": null,
+    "v": 0
+   },
+   "A9": {
+    "f": null,
+    "v": "Hedef"
+   },
+   "B9": {
+    "f": null,
+    "v": "Öncelik"
+   },
+   "C9": {
+    "f": null,
+    "v": "Bugünkü tutar"
+   },
+   "D9": {
+    "f": null,
+    "v": "Kaç ay sonra"
+   },
+   "E9": {
+    "f": null,
+    "v": "O günkü tahmini tutar"
+   },
+   "F9": {
+    "f": null,
+    "v": "Aylık katkı"
+   },
+   "G9": {
+    "f": null,
+    "v": "Plana dahil mi?"
+   },
+   "C10": {
+    "f": null,
+    "v": 0
+   },
+   "D10": {
+    "f": null,
+    "v": 12
+   },
+   "E10": {
+    "f": "=C10*(1+$C$5)^(D10/12)",
+    "v": 0.0
+   },
+   "F10": {
+    "f": "=IFERROR(-PMT($C$6,D10,0,E10),0)",
+    "v": 0.0
+   },
+   "G10": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "C11": {
+    "f": null,
+    "v": 0
+   },
+   "D11": {
+    "f": null,
+    "v": 12
+   },
+   "E11": {
+    "f": "=C11*(1+$C$5)^(D11/12)",
+    "v": 0.0
+   },
+   "F11": {
+    "f": "=IFERROR(-PMT($C$6,D11,0,E11),0)",
+    "v": 0.0
+   },
+   "G11": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "C12": {
+    "f": null,
+    "v": 0
+   },
+   "D12": {
+    "f": null,
+    "v": 12
+   },
+   "E12": {
+    "f": "=C12*(1+$C$5)^(D12/12)",
+    "v": 0.0
+   },
+   "F12": {
+    "f": "=IFERROR(-PMT($C$6,D12,0,E12),0)",
+    "v": 0.0
+   },
+   "G12": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "C13": {
+    "f": null,
+    "v": 0
+   },
+   "D13": {
+    "f": null,
+    "v": 12
+   },
+   "E13": {
+    "f": "=C13*(1+$C$5)^(D13/12)",
+    "v": 0.0
+   },
+   "F13": {
+    "f": "=IFERROR(-PMT($C$6,D13,0,E13),0)",
+    "v": 0.0
+   },
+   "G13": {
+    "f": null,
+    "v": "Hayır"
+   },
+   "A15": {
+    "f": null,
+    "v": "Plana dahil hedeflerin aylık katkısı"
+   },
+   "F15": {
+    "f": "=SUMIF(G10:G13,\"Evet\",F10:F13)",
+    "v": 0.0
+   },
+   "A16": {
+    "f": null,
+    "v": "Her ay ayırabileceğim"
+   },
+   "F16": {
+    "f": "=C7",
+    "v": 0
+   },
+   "A17": {
+    "f": null,
+    "v": "Fark"
+   },
+   "F17": {
+    "f": "=F16-F15",
+    "v": 0.0
+   },
+   "A18": {
+    "f": null,
+    "v": "Durum"
+   },
+   "F18": {
+    "f": "=IF(F17>=0,\"PLAN YETİYOR\",\"PLAN YETMİYOR — süre, tutar ya da öncelik değişmeli\")",
+    "v": "PLAN YETİYOR"
+   },
+   "A20": {
+    "f": null,
+    "v": "Tahmini tutar = bugünkü tutar × (1 + yıllık enflasyon) ^ (ay / 12). Enflasyon ve getiri örnek varsayımdır."
+   }
+  },
+  "Varsayımlar": {
+   "A1": {
+    "f": null,
+    "v": "Varsayımlar ve Kaynaklar"
+   },
+   "A2": {
+    "f": null,
+    "v": "ŞABLON · kendi (ya da açıkça 'uydurma' diye işaretli) verinizle doldurun · gerçek kimlik, IBAN, kart numarası YAZMAYIN"
+   },
+   "A3": {
+    "f": null,
+    "v": "Sarı hücre = girdi (değiştirebilirsiniz) · beyaz hücre = formül (elle yazmayın)"
+   },
+   "A5": {
+    "f": null,
+    "v": "Varsayım"
+   },
+   "B5": {
+    "f": null,
+    "v": "Değer"
+   },
+   "C5": {
+    "f": null,
+    "v": "Kaynak (ya da 'ÖRNEK — kaynak yok')"
+   },
+   "D5": {
+    "f": null,
+    "v": "Tarih"
+   },
+   "A6": {
+    "f": null,
+    "v": "Yıllık enflasyon"
+   },
+   "B6": {
+    "f": "='Hedefler'!C5",
+    "v": 0
+   },
+   "A7": {
+    "f": null,
+    "v": "Birikimin aylık getirisi"
+   },
+   "B7": {
+    "f": "='Hedefler'!C6",
+    "v": 0
+   }
+  }
+ }
+}

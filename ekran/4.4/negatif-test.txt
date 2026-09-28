@@ -1,0 +1,8 @@
+~/lab $ uv run --frozen python kitaplar/negatif_test.py
+YAKALANDI · Kredi Planı!C8             · aylık oranı bir daha 12'ye bölmek
+YAKALANDI · Nakit Akışı!D6             · Mart açılışını Ocak kapanışına bağlamak
+YAKALANDI · Başabaş!C10                · sabit gideri katkı payı yerine fiyata bölmek
+YAKALANDI · Kredi Planı!C9             · formülü silip elle sayı yazmak
+YAKALANDI · Kredi Kartı!C6↔C7          · iki girdiyi yer değiştirmek (permütasyon — yalnız çıpa yakalar)
+YAKALANDI · Çeşitlendirme!F20          · aralıktan bir yılı düşürmek
+NEGATİF TEST: GEÇTİ (her bozma yakalandı)

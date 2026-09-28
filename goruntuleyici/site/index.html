@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finans 101 · Lab görüntüleyici</title>
+<style>
+body { margin:0; background:#f4f6f9; color:#1c2430; font:15px/1.5 "DejaVu Sans", "Segoe UI", Arial, sans-serif; }
+header { background:#1f3a5f; color:#fff; padding:18px 24px; } header h1 { margin:0; font-size:20px; }
+main { max-width:1100px; margin:0 auto; padding:18px 24px; }
+.uyari { background:#fff7e6; border:1px solid #f0c36d; border-radius:8px; padding:10px 14px; margin-bottom:16px; }
+.kitap { background:#fff; border:1px solid #d5dce5; border-radius:10px; padding:12px 16px; margin-bottom:12px; }
+.kitap h2 { margin:0 0 6px; font-size:16px; font-family:"DejaVu Sans Mono", monospace; }
+.kitap a { display:inline-block; margin:3px 8px 3px 0; padding:3px 10px; background:#e8eef5; border-radius:6px; color:#1f3a5f; text-decoration:none; }
+.kitap .k { color:#5b6472; font-size:13px; }
+</style></head><body>
+<header><h1>Finans 101 · Lab görüntüleyici</h1></header>
+<main>
+<p class="uyari"><b>ÖRNEK VERİ.</b> Kişiler ve işletmeler uydurmadır; oranlar örnek değerdir, bugünkü piyasa bilgisi değildir.
+Hafta 4 senaryoları gerçek ürün ya da piyasa verisi değildir. Bu lab <b>yatırım tavsiyesi değildir</b>.</p>
+<p>Her dosya <code>calisma-kitaplari/</code> içindeki gerçek <code>.xlsx</code> dosyasıdır; Excel ya da Google E-Tablolar ile de açılır.
+Burada gördüğünüz değerler, dosyadaki formüllerin formül motoruyla hesaplanmış hâlidir. Bir hücreye tıklayınca formülü üstte görünür.</p>
+<div class="kitap"><h2>bitirme-ornek.xlsx</h2><a href="bitirme-ornek.html?sayfa=1">Başla</a><a href="bitirme-ornek.html?sayfa=2">Bütçe</a><a href="bitirme-ornek.html?sayfa=3">Nakit Akışı</a><a href="bitirme-ornek.html?sayfa=4">Hedefler</a><a href="bitirme-ornek.html?sayfa=5">Varsayımlar</a><div class="k">5 sayfa · 121 formül</div></div><div class="kitap"><h2>bitirme-sablonu.xlsx</h2><a href="bitirme-sablonu.html?sayfa=1">Başla</a><a href="bitirme-sablonu.html?sayfa=2">Bütçe</a><a href="bitirme-sablonu.html?sayfa=3">Nakit Akışı</a><a href="bitirme-sablonu.html?sayfa=4">Hedefler</a><a href="bitirme-sablonu.html?sayfa=5">Varsayımlar</a><div class="k">5 sayfa · 121 formül</div></div><div class="kitap"><h2>hafta1-paranin-temelleri.xlsx</h2><a href="hafta1-paranin-temelleri.html?sayfa=1">Gelir-Gider</a><a href="hafta1-paranin-temelleri.html?sayfa=2">Bütçe</a><a href="hafta1-paranin-temelleri.html?sayfa=3">Nakit Akışı</a><a href="hafta1-paranin-temelleri.html?sayfa=4">Acil Durum Fonu</a><div class="k">4 sayfa · 241 formül</div></div><div class="kitap"><h2>hafta2-borc-ve-birikim.xlsx</h2><a href="hafta2-borc-ve-birikim.html?sayfa=1">Bileşik Faiz</a><a href="hafta2-borc-ve-birikim.html?sayfa=2">Kredi Kartı</a><a href="hafta2-borc-ve-birikim.html?sayfa=3">Kredi Planı</a><a href="hafta2-borc-ve-birikim.html?sayfa=4">Birikim Hedefi</a><a href="hafta2-borc-ve-birikim.html?sayfa=5">Enflasyon</a><div class="k">5 sayfa · 248 formül</div></div><div class="kitap"><h2>hafta3-isletme-finansi.xlsx</h2><a href="hafta3-isletme-finansi.html?sayfa=1">Kâr ve Nakit</a><a href="hafta3-isletme-finansi.html?sayfa=2">Başabaş</a><a href="hafta3-isletme-finansi.html?sayfa=3">Fiyatlama</a><a href="hafta3-isletme-finansi.html?sayfa=4">Nakit Akış Tablosu</a><div class="k">4 sayfa · 285 formül</div></div><div class="kitap"><h2>hafta4-karar-vermek.xlsx</h2><a href="hafta4-karar-vermek.html?sayfa=1">Risk ve Getiri</a><a href="hafta4-karar-vermek.html?sayfa=2">Çeşitlendirme</a><a href="hafta4-karar-vermek.html?sayfa=3">Hedef Planı</a><div class="k">3 sayfa · 141 formül</div></div>
+<p class="k">Oluşturma: <code>uv run python goruntuleyici/olustur.py</code> · kontrol: <code>./kontrol.sh</code></p>
+</main></body></html>

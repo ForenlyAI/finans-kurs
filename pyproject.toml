@@ -1,0 +1,14 @@
+[project]
+name = "finans-101-lab"
+version = "1.0.0"
+description = "Finans 101 lab'ı: gerçek .xlsx çalışma kitapları, bağımsız değer kontrolü, yerel görüntüleyici ve ekran araçları"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "openpyxl==3.1.5",
+    "formulas==1.3.0",
+    "matplotlib==3.10.6",
+    "playwright==1.63.0",
+]
+
+[tool.uv]
+package = false

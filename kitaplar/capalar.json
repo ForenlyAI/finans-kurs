@@ -1,0 +1,49 @@
+{
+ "_aciklama": "ÇIPALAR — kodun DIŞINDA, elle hesaplanmış değerler. Formül motoru da bağımsız model de bunları tutturmalı. 'neden' alanı elle yapılan işlemi yazar.",
+ "hafta1-paranin-temelleri.xlsx": [
+  {"sayfa": "Gelir-Gider", "hucre": "H7", "deger": 36600, "etiket_hucre": "G7", "etiket": "Toplam gider", "neden": "16 gider satırının elle toplamı"},
+  {"sayfa": "Gelir-Gider", "hucre": "H6", "deger": 45500, "etiket_hucre": "G6", "etiket": "Toplam gelir", "neden": "42000 maaş + 3500 serbest iş"},
+  {"sayfa": "Nakit Akışı", "hucre": "M12", "deger": 23800, "etiket_hucre": "A12", "etiket": "Kapanış bakiyesi", "neden": "2000 + 12×4900 + 20000 düzensiz − 57000 dönemsel"},
+  {"sayfa": "Nakit Akışı", "hucre": "H12", "deger": -2700, "etiket_hucre": "A12", "etiket": "Kapanış bakiyesi", "neden": "Temmuz: 17400 + 4900 − 25000"},
+  {"sayfa": "Nakit Akışı", "hucre": "B16", "deger": 2, "etiket_hucre": "A16", "etiket": "Açık veren ay sayısı", "neden": "Temmuz −2700, Eylül −4900"},
+  {"sayfa": "Acil Durum Fonu", "hucre": "C5", "deger": 30050, "neden": "15000 + 3700 + 8900 + 1850 + 600 (zorunlu gerçekleşen)"},
+  {"sayfa": "Acil Durum Fonu", "hucre": "C11", "deger": 20, "etiket_hucre": "A11", "etiket": "Hedefe kaç ayda ulaşırım?", "neden": "(3×30050 − 12000) / 4000 = 19,54 → yukarı 20"}
+ ],
+ "hafta2-borc-ve-birikim.xlsx": [
+  {"sayfa": "Bileşik Faiz", "hucre": "C20", "deger": 931322.57, "etiket_hucre": "A20", "etiket": 10, "neden": "100000 × 1,25^10 = 100000 × 9,3132257"},
+  {"sayfa": "Bileşik Faiz", "hucre": "B20", "deger": 350000, "neden": "100000 × (1 + 0,25×10)"},
+  {"sayfa": "Kredi Kartı", "hucre": "G13", "deger": 640, "etiket_hucre": "A13", "etiket": "Asgari tutarı öde", "neden": "(20000 − 4000) × %4"},
+  {"sayfa": "Kredi Kartı", "hucre": "G14", "deger": 774, "etiket_hucre": "A14", "etiket": "Asgari tutarın altında öde", "neden": "(20000 − 2000) × %4,3 gecikme"},
+  {"sayfa": "Kredi Planı", "hucre": "C8", "deger": 5023.10, "etiket_hucre": "A8", "etiket": "Aylık taksit", "neden": "50000 × 0,03 / (1 − 1,03^−12) = 1500 / 0,298620"},
+  {"sayfa": "Kredi Planı", "hucre": "D13", "deger": 1500, "neden": "ilk ay faizi 50000 × %3"},
+  {"sayfa": "Birikim Hedefi", "hucre": "E37", "deger": 120000, "neden": "24. ay sonunda hedefe tam ulaşılır"},
+  {"sayfa": "Enflasyon", "hucre": "C17", "deger": 0.0166667, "neden": "1,22 / 1,20 − 1 = 0,01666…"},
+  {"sayfa": "Enflasyon", "hucre": "B15", "deger": 24883.20, "neden": "10000 × 1,2^5 = 10000 × 2,48832"}
+ ],
+ "hafta3-isletme-finansi.xlsx": [
+  {"sayfa": "Kâr ve Nakit", "hucre": "C20", "deger": 60000, "neden": "birikimli nakit −29000, −57000, −60000 … en düşük −60000"},
+  {"sayfa": "Kâr ve Nakit", "hucre": "G16", "deger": 98000, "etiket_hucre": "A16", "etiket": "Birikimli kâr", "neden": "−5000+5000+15000+20000+28000+35000"},
+  {"sayfa": "Başabaş", "hucre": "C10", "deger": 250, "etiket_hucre": "A10", "etiket": "Başabaş adedi (aylık)", "neden": "30000 / (250 − 130) = 250"},
+  {"sayfa": "Başabaş", "hucre": "C14", "deger": 18000, "neden": "400 × 120 − 30000"},
+  {"sayfa": "Fiyatlama", "hucre": "C11", "deger": 287, "neden": "(130 + 30000/400) × 1,4 = 205 × 1,4"},
+  {"sayfa": "Nakit Akış Tablosu", "hucre": "M21", "deger": 83800, "etiket_hucre": "A21", "etiket": "Kapanış bakiyesi", "neden": "ay ay elle: 18750, 18700, 19700, −14400, −6150, 6100, 12200, 15700, 21300, 36700, 56800, 83800"},
+  {"sayfa": "Nakit Akış Tablosu", "hucre": "E21", "deger": -14400, "neden": "Nisan: 19700 + 77500 − 111600"},
+  {"sayfa": "Nakit Akış Tablosu", "hucre": "C25", "deger": 2, "neden": "Nisan ve Mayıs"}
+ ],
+ "hafta4-karar-vermek.xlsx": [
+  {"sayfa": "Risk ve Getiri", "hucre": "B20", "deger": 0.213, "etiket_hucre": "A20", "etiket": "Ortalama yıllık getiri", "neden": "A getirileri toplamı 2,13 / 10"},
+  {"sayfa": "Risk ve Getiri", "hucre": "D20", "deger": 0.305, "neden": "C getirileri toplamı 3,05 / 10"},
+  {"sayfa": "Çeşitlendirme", "hucre": "F19", "deger": 0.1175, "neden": "(ortalama X 0,125 + ortalama Y 0,11) / 2"},
+  {"sayfa": "Hedef Planı", "hucre": "E10", "deger": 72000, "neden": "60000 × 1,2^(12/12)"}
+ ],
+ "bitirme-sablonu.xlsx": [
+  {"sayfa": "Başla", "hucre": "C18", "deger": "EKSİK VAR", "neden": "boş şablonda hiçbir ölçüt işaretli değil"},
+  {"sayfa": "Bütçe", "hucre": "C20", "deger": 0, "neden": "boş şablon"}
+ ],
+ "bitirme-ornek.xlsx": [
+  {"sayfa": "Başla", "hucre": "C18", "deger": "TESLİME HAZIR", "neden": "8 ölçüt Evet"},
+  {"sayfa": "Nakit Akışı", "hucre": "M12", "deger": 23800, "neden": "Hafta 1 ile aynı veri"},
+  {"sayfa": "Bütçe", "hucre": "C21", "deger": 30050, "neden": "zorunlu gerçekleşen, Hafta 1 ile aynı"},
+  {"sayfa": "Bütçe", "hucre": "C28", "deger": 20, "etiket_hucre": "A28", "etiket": "Hedefe kaç ayda ulaşırım?", "neden": "Hafta 1.4 ile aynı: (90150 − 12000) / 4000 → 20"}
+ ]
+}

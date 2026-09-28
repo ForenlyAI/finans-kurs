@@ -1,0 +1,8 @@
+~/lab $ uv run --frozen python kitaplar/kontrol_degerler.py --sessiz
+hafta1-paranin-temelleri.xlsx       241 formül · kontrolsüz 0 · fark 0 · çıpa 7/7 · GEÇTİ
+hafta2-borc-ve-birikim.xlsx         248 formül · kontrolsüz 0 · fark 0 · çıpa 9/9 · GEÇTİ
+hafta3-isletme-finansi.xlsx         285 formül · kontrolsüz 0 · fark 0 · çıpa 8/8 · GEÇTİ
+hafta4-karar-vermek.xlsx            141 formül · kontrolsüz 0 · fark 0 · çıpa 4/4 · GEÇTİ
+bitirme-sablonu.xlsx                121 formül · kontrolsüz 0 · fark 0 · çıpa 2/2 · GEÇTİ
+bitirme-ornek.xlsx                  121 formül · kontrolsüz 0 · fark 0 · çıpa 4/4 · GEÇTİ
+toplam 1157 formül hücresi bağımsız olarak yeniden hesaplandı · GEÇTİ
