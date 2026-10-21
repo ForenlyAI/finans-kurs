@@ -1,4 +1,4 @@
-# Finans 101 — Lab
+# Yapay Zekâ Yatırımının Finansı — Lab
 
 Bu klasörde kursun bütün uygulamalarında kullanılan **gerçek elektronik tablo dosyaları** (`.xlsx`),
 formülleri çalıştırıp her değeri **bağımsız olarak yeniden hesaplayan** kontrol, dosyayı olduğu gibi
